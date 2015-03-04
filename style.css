@@ -1,0 +1,83 @@
+﻿@font-face{ font-family: bon; src: url(arbonnie.ttf);}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e67e22;
+    font-family: bon;
+    font-size: 20pt;
+    color: #2c3e50;
+}
+
+header{
+    color: #ecf0f1;
+    background-color: #2c3e50;
+    height: 215px;
+    padding-top: 15px; 
+    padding-left: 60px;
+    font-size: 70pt;
+}
+
+section{
+    width: 900px;
+    min-height: 20px;
+    background-color: #ecf0f1;
+    text-align: left;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px #000000;
+}
+section > p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+section article{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15pt;
+}
+
+form{
+    margin-right: 150px;
+}
+.hr{
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2c3e50;
+    width: 80%;
+}
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.error{
+    background-color: #e74c3c;
+    text-decoration: bold;
+    border-radius: 8px;
+}
+
+.ok{
+    background-color: #2ecc71;
+    text-decoration: bold;
+    border-radius: 8px;
+}
+
+.date{
+float: right;
+    text-align: right;
+    display: inline;
+}
+
+article > h3 {
+display: inline;
+}
